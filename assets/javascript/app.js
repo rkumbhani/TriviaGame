@@ -116,6 +116,14 @@ var startScreen;
 var gameHTML;
 var counter = 30;
 
+// create vars for the scoring
+var questionCounter = 0;
+var selecterAnswer;
+var theTimer;
+var scoreCorrect = 0;
+var scoreIncorrect = 0;
+var scoreUnanswered = 0;
+
 // question library
 var questionList = [
     "What year was the first national park established?", 
@@ -147,11 +155,3 @@ var correctAnswers = [
     "B. 130", 
     "A. Pinnacles, CA", 
     "D. Black Canyon of the Gunnison"];
-
-// create vars for the scoring
-var questionCounter = 0;
-var selecterAnswer;
-var theTimer;
-var scoreCorrect = 0;
-var scoreIncorrect = 0;
-var scoreUnanswered = 0;
